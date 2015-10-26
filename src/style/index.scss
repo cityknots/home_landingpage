@@ -1,0 +1,15 @@
+// Base css
+// @import "base/clear.scss";
+
+// Dependencies
+@import "dependencies/normalize";
+
+// ------- Project ------- //
+@import "base/typography.scss";
+@import "variables";
+
+
+// Sections
+@import "sections/header.scss";
+@import "sections/footer.scss";
+
