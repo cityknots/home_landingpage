@@ -1,9 +1,11 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  background-color: #E0E0E0;
-  color: #828282;
+  // background-color: #E0E0E0;
+  // color: ;
   font-size: 16px;
-  padding: 55px 0 50px;
+  // margin: 0;
+  // padding: 0;
+  // padding: 55px 0 50px;
 }
 
 // Containers
@@ -44,4 +46,11 @@ hr {
 
 figure {
   margin: 0;
+}
+
+.absolute_center{
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
 }

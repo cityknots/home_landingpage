@@ -6,10 +6,11 @@
 
 // ------- Project ------- //
 @import "base/typography.scss";
-@import "variables";
+// @import "variables";
 
 
 // Sections
+@import "sections/general.scss";
 @import "sections/header.scss";
 @import "sections/footer.scss";
 
