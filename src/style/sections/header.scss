@@ -4,12 +4,13 @@
 |  ||___/~~\|__/|___|  \ 
 */
 header{
-	height: 600px;
+	height: 800px;
 	// background-color: #f3f3f3;
 	background: url('images/header.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
+	margin-bottom: 40px;
 	.absolute_center{
 		width: 50%;
 		height: 50%;
