@@ -14,6 +14,9 @@ header{
 	.absolute_center{
 		width: 50%;
 		height: 50%;
+		@media (max-width: 900px) {
+          width: 95%;
+        }
 	}
 	.content{
 		position: relative;

@@ -6,23 +6,26 @@ body {
   // overflow: hidden;
   // margin: 0;
   // padding: 0;
-  // padding: 55px 0 50px;
 }
 
 // Containers
 .container {
-  // max-width: 1200px;
   margin-bottom: 110px;
   .col-50{
     float: left;
     width: 50%;
     overflow: hidden;
-    // display: inline-block;
-    // position: relative;
+     @media (max-width: 768px) {
+          width: 100%;
+      }
     .txt{
       width: 70%;
       margin-left: 20%;
       margin-top: 10%;
+      @media (max-width: 768px) {
+        margin: 0 auto;
+        width: 90%;
+      }
     }
     img{
       width: 125%
@@ -30,7 +33,6 @@ body {
   }
   .col-100{
     .main{
-      
       margin: 0 auto;
       text-align: center;
       img{
@@ -38,9 +40,15 @@ body {
         }
       &.first{
         width: 600px;
+        @media (max-width: 768px) {
+          width: 100%;
+        }
       }
       &.second{
         width: 900px;
+        @media (max-width: 900px) {
+          width: 100%;
+        }
       }
     }
   }
@@ -49,6 +57,23 @@ body {
   }
 
 }
+
+.call_to_action{
+  .cta_bottom{
+    margin-top: 50px;
+    font-size: 30px;
+    padding: 25px 40px;
+    background-color: #00a991;
+    color: #ffffff;
+    border:none;
+
+  }
+}
+
+
+
+
+
 // Links
 a {
   text-decoration: none;
