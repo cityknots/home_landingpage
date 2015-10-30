@@ -5,3 +5,14 @@
 
 // Sizing 
 // $ padding-normal: #px
+
+
+$mobile:  "only screen and (max-width: 768px)";
+
+$fix:  "only screen and (max-width: 900px)";
+
+$iphone6: "only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 2)";
